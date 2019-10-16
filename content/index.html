@@ -14,40 +14,34 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">SciVis Contest 2020</a>
+            <a class="navbar-brand" href="index.html">SciVis Contest 2020</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="data.html">Data</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="tasks.html">Tasks</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="submission.html">Submission</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="previous.html">Previous Contests</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
         <div class="container">
             <div class="starter-template">
                 <h1>SciVis Contest 2020</h1>
-                <p class="lead"><strong>The 2019 IEEE SciVis Contest is dedicated to the visualization and analysis of a simulation ensemble that generates eddies and other oceanographic variables over the Red Sea.&nbsp;</strong></p>
+                <p class="lead"><strong>The 2019 IEEE SciVis Contest is dedicated to Create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty.</strong></p>
             </div>
         </div>
         <!-- /.container -->
@@ -57,13 +51,26 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <div class="row">
-            <div class="container">
-                <center>
-                    <video width="720" height="480" controls>
-                        <source src="assets/media/particles.mp4" type="video/mp4">
-                    </video>
-                </center>
+        <div class="container">
+            <div>
+                <br>
+                <div>
+                    <div class="starter-template mt-n5">
+                        <video src="assets/media/particles.mp4" loop="true" class="embed-responsive" controls autoplay="true">Your browser doesn't support HTML5 video tag.</video>
+                        <p>Particle animation of one ensemble member over the whole month.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <br>
+                <div>
+                    <div class="starter-template mt-n5">
+                        <img class="embed-responsive" src="assets/media/pathlines.png">
+                        <p>Pathlines for all ensemble members seeded at the same point.<br></p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
