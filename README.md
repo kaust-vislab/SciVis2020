@@ -1,5 +1,8 @@
 ![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
 
+## Website
+
+The SciVis Contest website is at http://thomas.theussl.gitlab.io/2020-scivis-contest/index.html
 ---
 
 Example plain HTML site using GitLab Pages.
