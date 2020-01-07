@@ -1,0 +1,8 @@
+The SciVis contest is an annual event providing scientific datasets for visualization and data analysis. This year a data set describing complex transport mechanisms of eddies in the Red Sea under uncertainty is provided. The data from these simulations create an opportunity for visualization researchers to apply their techniques and deliver visually stunning and informative imagery to provide domain specialists with a deeper understanding of their data. Participants will be rewarded for creating an animation showing the time evolution of the simulation and illustrating the visualization techniques used.
+
+The winning submission will be awarded with the opportunity of a full journal article. All approved submissions will be able to present their work as a short talk and during the poster session.
+
+For details, visit: https://kaust-vislab.github.io/SciVis2020/ 
+
+Contact:
+scivis_contest@ieeevis.org
